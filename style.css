@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "monserrat",sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background-color: #151515;
+}
+div{
+  color: #dddddd;
+}
+h3{
+  color: #dddddd;
+  margin: 10px 0;
+}
+.fa-trash-alt{
+color: #810000;
+}
+.fa-check{
+  color: #1f441e;
+}
+.task{
+  width: 100%;
+  background: #323232;
+  padding: 18px;
+  margin: 6px 0;
+  overflow: hidden;
+}
+.container{
+  max-width: 800px;
+  margin: auto;
+  padding: 10px;
+}
+
+.input{
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #000;
+  background: none;
+  padding: 10px;
+  outline: none;
+  font-size: 18px;
+  color: #dddddd;
+}
+.task i{
+  float: right;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.complated .task{
+  background: rgb(32,32,32,0.5);
+}
